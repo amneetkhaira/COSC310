@@ -9,8 +9,7 @@ WebCallIntent function - assigns a variable to an agent parameter; consider this
 CallEvent function - when this function is used to set a follow up event given a specific agent and event.  
 If/Else statemets - identify location (body part that user inputs) in order to call the associated event.
 
-**Breakdown of how a conversation is outlined:**
-https://github.com/sroarty/COSC310_Team15/blob/main/outline.pdf
+[Breakdown of how a conversation is outlined](./outline.pdf)
 
 # Updates for Assignment 3
 ## List of features implemented
@@ -36,4 +35,11 @@ https://github.com/sroarty/COSC310_Team15/blob/main/outline.pdf
   
 [Final Documentation](./COSC%20310%20-%20Final%20Documentation.pdf)
   
-  
+# Updates for the Individual Project
+## List of features implemented through use of public APIs
+- Google Translate API - implemented as Google Cloud Translation API.  
+- Google Places API. 
+
+## Documentation
+- Formal report submitted on Canvas: Includes a link to this ReadMe file as well as detailed explanations of APIs used.
+- Presentation slides/Video presentaion submitted on Canvas: Includes a description of the program's conversation topic as well as to more details of how these features are used to improve conversation with the agent.
