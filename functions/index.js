@@ -21,8 +21,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     var injury = agent.parameters["injury"];
     var location = agent.parameters["specific-location"];
     var causeOfPain = agent.parameters["causeOfPain"];
+    var translate = agent.parameters["Translation"];
+		var poi = agent.parameters["Point-of-interest"];
+		
+    if(translate == "Translate") callEvent(agent, "Translate");
 
-    
     // Using the parameters above, the correct intent can
     // be called by invoking the event attached. By default,
     // the intent is based on location, but paintypes and
