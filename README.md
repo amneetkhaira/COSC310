@@ -36,6 +36,7 @@ If/Else statemets - identify location (body part that user inputs) in order to c
 [Final Documentation](./COSC%20310%20-%20Final%20Documentation.pdf)
   
 # Updates for the Individual Project
+**Details:** For this assignment I have taken the output of my teams A3 and continued development with it by adding on features. I have cloned my teams A3 repository and worked on my own repository from there.
 ## List of features implemented through use of public APIs
 - Google Translate API - implemented as Google Cloud Translation API.  
 - Google Places API. 
