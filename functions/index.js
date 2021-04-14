@@ -22,7 +22,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     var location = agent.parameters["specific-location"];
     var causeOfPain = agent.parameters["causeOfPain"];
     var translate = agent.parameters["Translation"];
-		var poi = agent.parameters["Point-of-interest"];
+    var poi = agent.parameters["Point-of-interest"];
 		
     if(translate == "Translate") callEvent(agent, "Translate");
 
